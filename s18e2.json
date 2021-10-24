@@ -1,0 +1,54 @@
+{
+    "STiers": [
+        "Fury"
+    ],
+    "ATiers": [
+        "Soprano",
+        "Susanna"
+    ],
+    "BTiers": [
+        "Pipe_Dream",
+        "Reveler",
+        "Honored_Guest",
+        "Tune",
+        "Scene_Four"
+    ],
+    "CTiers": [
+        "Mellow_Yellow",
+        "Calm_Yellow",
+        "Purple_Tune",
+        "Yellow_Mud",
+        "Blue_Jellyfish",
+        "Moldy_Bread",
+        "Red_Maple_Leaf",
+        "Black_Mast",
+        "Blood_Moon_Red",
+        "Shame",
+        "Shame",
+        "Shame",
+        "Shame",
+        "Snooze",
+        "Ready",
+        "Ready",
+        "Ready",
+        "Wait",
+        "Cartoon",
+        "Cartoon",
+        "Cartoon",
+        "Cartoon",
+        "Black-and-White_(Portrait)",
+        "Black-and-White_(Portrait)"
+    ],
+    "DTiers": [
+        "Silhouette",
+        "Silhouette",
+        "Silhouette",
+        "Gray_Shadow",
+        "Gray_Shadow",
+        "Graffiti_-_Cute",
+        "Colorful_Memory",
+        "Colorful_Memory",
+        "Colorful_Memory",
+        "Colorful_Memory"
+    ]
+}

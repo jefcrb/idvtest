@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(bg.JPG) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.essence {
+    height: 350px;
+    transform: translateY(-75px);
+    position: absolute;
+}
+
+.btns-open {
+    transform: translateY(20vh);
+    position: absolute;
+}
+
+.btn-open-1,.btn-open-10 {
+    background: transparent;
+    width: 200px;
+    margin: 75px;
+    border: none;
+}
+
+.img-open-1,.img-open-10 {
+    width: 320px;
+    transform: translateX(-75px);
+}
+
+.img-open-1:active,.img-open-10:active {
+    filter: brightness(.8);
+}
+
+.man-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.man {
+    position: relative;
+    display: block;
+    height: 200px;
+}
+
+#skin {
+    position: absolute;
+    transform: translateY(-100px);
+}
