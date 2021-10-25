@@ -10,7 +10,7 @@ S tier: 25% per 100 pulls, pity: 250
 */
 
 var pulls = 0, b = 0, a = 0, s = 0, BPity = 10, APity = 60, SPity = 250;
-var essence = "s18e2";
+var essence = "mad-eyes";
 
 console.clear();
 function randomItem() {
