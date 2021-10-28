@@ -78,6 +78,7 @@ function pullOne(essence) {
                 SPity = 250;
                 break;
         }
+        updateText();
         console.log(item);
         $.getJSON(`https://idv-costume.herokuapp.com/?name=${item}`, function(data) {
             if(document.contains(document.getElementById("skin")))
@@ -88,7 +89,6 @@ function pullOne(essence) {
             document.getElementById('body').appendChild(img);
         });
     })
-    updateText();
 }
 
 function openAnim() {
