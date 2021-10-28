@@ -1,0 +1,37 @@
+{
+    "probs": {
+        "d": 82500,
+        "c": 0,
+        "b": 92700,
+        "a": 93989,
+        "s": 0
+    },
+    "STiers": [
+
+    ],
+    "ATiers": [
+        "Kogoro_Mori",
+        "Shiho_Miyano_(Ai_Haibara)",
+        "Heiji_Hattori",
+        "Ran_Mori"
+    ],
+    "BTiers": [
+        "Sleeping_Kogoro",
+        "Detective_Boys_Badge",
+        "Vigilant",
+        "Vigilant",
+        "Stretching"
+    ],
+    "CTiers": [
+
+    ],
+    "DTiers": [
+        "Voice-changing_Bowtie",
+        "Stun-gun_Wrist-watch",
+        "Criminal_Locator_Glasses",
+        "A_Mysterious_Warning_Letter",
+        "Portrait_-_Conan_Edogawa",
+        "Portrait_-_Shinichi_Kudo",
+        "Case_Closed_I"
+    ]
+}
