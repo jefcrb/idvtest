@@ -1,24 +1,25 @@
 {
     "probs": {
-        "d": 82500,
+        "d": 0,
         "c": 0,
-        "b": 92700,
-        "a": 93989,
-        "s": 0
+        "b": 0,
+        "a": 0,
+        "s": 100000
     },
     "STiers": [
         "Enraged"
     ],
     "ATiers": [
-        "Enraged"
+
     ],
     "BTiers": [
-        "Enraged"
+
     ],
     "CTiers": [
-        "Enraged"
+
     ],
     "DTiers": [
-        "Enraged"
-    ]
+
+    ],
+    "dupesEnabled": true
 }
