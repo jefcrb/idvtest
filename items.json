@@ -1,9 +1,13 @@
 {
+    "probs": {
+        "d": 32000,
+        "c": 82000,
+        "b": 92200,
+        "a": 93489,
+        "s": 93816
+    },
     "STiers": [
-        "Enraged",
-        "Bloodbath",
-        "Golden_Future",
-        "Nirvana"
+
     ],
     "ATiers": [
 

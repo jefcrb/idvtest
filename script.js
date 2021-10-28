@@ -10,29 +10,28 @@ S tier: 25% per 100 pulls, pity: 250
 */
 
 var pulls = 0, b = 0, a = 0, s = 0, BPity = 10, APity = 60, SPity = 250;
-var essence = "mad-eyes";
 
 console.clear();
-function randomItem() {
+function randomItem(d, c, b, a, s) {
     var x = '';
-    if(SPity == 0)
+    if(SPity == 0 && s != 0)
         x = 's';
-    else if(APity == 0)
+    else if(APity == 0 && a != 0)
         x = 'a';
-    else if(BPity == 0)
+    else if(BPity == 0 && b != 0) 
         x = 'b';
     else {
         var random = Math.floor(Math.random() * 100000)
         console.log(random)
-        if(random < 32000)
+        if(random < d)
             x = 'd';
-        else if(32000 <= random && random < 82000)
+        else if(d <= random && random < c)
             x = 'c';
-        else if(82000 <= random && random < 92200)
+        else if(c <= random && random < b)
             x = 'b';
-        else if(92200 <= random && random < 93489)
+        else if(b <= random && random < a)
             x = 'a';
-        else if(93489 <= random && random < 93816)
+        else if(a <= random && random < s)
             x = 's';
         else
             x = 'd';
@@ -46,7 +45,7 @@ function pullTen() {
     }
 }
 
-function pullOne() {
+function pullOne(essence) {
     //$(".btn-open-1").attr('disabled','disabled');
     var item;
     pulls++;
@@ -54,7 +53,7 @@ function pullOne() {
     APity--;
     BPity--;
     $.getJSON(`${essence}.json`, function(data){
-        var rand = randomItem();
+        var rand = randomItem(data.probs.d, data.probs.c, data.probs.b, data.probs.a, data.probs.s);
         console.log(rand);
         switch(rand) {
             case 'd':
