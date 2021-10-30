@@ -80,7 +80,8 @@ function pullOne(essence) {
         }
         updateText();
         console.log(item);
-        $.getJSON(`https://idv-costume.herokuapp.com/?name=${item}`, function(data) {
+        //TODO: Switch category depending on item type. Read updated documentation for further info :)
+        $.getJSON(`https://idv-costume.herokuapp.com/skin/${item}`, function(data) {
             if(document.contains(document.getElementById("skin")))
                 document.getElementById("skin").remove();
             img = document.createElement('img');
