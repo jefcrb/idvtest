@@ -7,55 +7,52 @@
         "s": 93816
     },
     "STiers": [
-        "Fury"
+        "skin/Fury"
     ],
     "ATiers": [
-        "Soprano",
-        "Susanna"
+        "skin/Soprano",
+        "skin/Susanna"
     ],
     "BTiers": [
-        "Pipe_Dream",
-        "Reveler",
-        "Honored_Guest",
-        "Tune",
-        "Scene_Four"
+        "skin/Pipe_Dream",
+        "skin/Reveler",
+        "skin/Honored_Guest",
+        "skin/Tune",
+        "skin/Scene_Four",
+        "skin/Snooze",
+        "skin/Snooze",
+        "skin/Snooze",
+        "skin/Visit"
     ],
     "CTiers": [
-        "Mellow_Yellow",
-        "Calm_Yellow",
-        "Purple_Tune",
-        "Yellow_Mud",
-        "Blue_Jellyfish",
-        "Moldy_Bread",
-        "Red_Maple_Leaf",
-        "Black_Mast",
-        "Blood_Moon_Red",
-        "Shame",
-        "Shame",
-        "Shame",
-        "Shame",
-        "Snooze",
-        "Ready",
-        "Ready",
-        "Ready",
-        "Wait",
-        "Cartoon",
-        "Cartoon",
-        "Cartoon",
-        "Cartoon",
-        "Black-and-White_(Portrait)",
-        "Black-and-White_(Portrait)"
+        "skin/Mellow_Yellow",
+        "skin/Calm_Yellow",
+        "skin/Purple_Tune",
+        "skin/Yellow_Mud",
+        "skin/Blue_Jellyfish",
+        "skin/Moldy_Bread",
+        "skin/Red_Maple_Leaf",
+        "skin/Black_Mast",
+        "skin/Blood_Moon_Red",
+        "skin/Shame",
+        "skin/Shame",
+        "skin/Shame",
+        "skin/Shame",
+        "skin/Snooze",
+        "skin/Ready",
+        "skin/Ready",
+        "skin/Ready",
+        "skin/Wait"
     ],
     "DTiers": [
-        "Silhouette",
-        "Silhouette",
-        "Silhouette",
-        "Gray_Shadow",
-        "Gray_Shadow",
-        "Graffiti_-_Cute",
-        "Colorful_Memory",
-        "Colorful_Memory",
-        "Colorful_Memory",
-        "Colorful_Memory"
-    ]
+        "portrait/Black_and_white/Thief",
+        "portrait/Black_and_white/Cowboy",
+        "portrait/Black_and_white/Dancer",
+        "portrait/Colorful_Memory/Wu_Chang",
+        "portrait/Colorful_Memory/The_Minds_Eye",
+        "portrait/Colorful_Memory/Mercenary",
+        "portrait/Colorful_Memory/Mechanic"
+        
+    ],
+    "dupesEnabled": true
 }

@@ -9,7 +9,7 @@ S tier: 25% per 100 pulls, pity: 250
 => 0.327124%
 */
 
-var pulls = 0, b = 0, a = 0, s = 0, BPity = 10, APity = 60, SPity = 250;
+var pulls = 0, b = 0, a = 0, s = 0, BPity = 10, APity = 60, SPity = 250, owned = [];
 
 console.clear();
 function randomItem(d, c, b, a, s) {
@@ -80,7 +80,9 @@ function pullOne(essence) {
         }
         updateText();
         console.log(item);
-        $.getJSON(`https://idv-costume.herokuapp.com/?name=${item}`, function(data) {
+        if(!owned.includes(item))
+            owned.push(item);
+        $.getJSON(`https://idv-costume.herokuapp.com/${item}`, function(data) {
             if(document.contains(document.getElementById("skin")))
                 document.getElementById("skin").remove();
             img = document.createElement('img');

@@ -10,17 +10,17 @@
 
     ],
     "ATiers": [
-        "Kogoro_Mori",
-        "Shiho_Miyano_(Ai_Haibara)",
-        "Heiji_Hattori",
-        "Ran_Mori"
+        "skin/Kogoro_Mori",
+        "skin/Shiho_Miyano_(Ai_Haibara)",
+        "skin/Heiji_Hattori",
+        "skin/Ran_Mori"
     ],
     "BTiers": [
-        "Sleeping_Kogoro",
-        "Detective_Boys_Badge",
-        "Vigilant",
-        "Vigilant",
-        "Stretching"
+        "skin/Sleeping_Kogoro",
+        "accessory/Detective_Boys_Badge",
+        "skin/Vigilant",
+        "skin/Vigilant",
+        "skin/Stretching"
     ],
     "CTiers": [
 
@@ -33,5 +33,6 @@
         "Portrait_-_Conan_Edogawa",
         "Portrait_-_Shinichi_Kudo",
         "Case_Closed_I"
-    ]
+    ],
+    "dupesEnabled": false
 }
