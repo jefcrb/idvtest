@@ -82,15 +82,19 @@ function pullOne(essence) {
         console.log(item);
         if(!owned.includes(item))
             owned.push(item);
-        $.getJSON(`https://idv-costume.herokuapp.com/${item}`, function(data) {
-            if(document.contains(document.getElementById("skin")))
-                document.getElementById("skin").remove();
-            img = document.createElement('img');
-            img.id = "skin";
-            img.src = data.link;
-            document.getElementById('body').appendChild(img);
-        });
+        loadLocalImage(item);
     })
+}
+
+function loadLocalImage(item) {
+    if(document.contains(document.getElementById("skin")))
+        document.getElementById("skin").remove();
+    
+    let img = document.createElement('img');
+    img.id = "skin";
+    img.src = `items/images/${item}.png`;
+    console.log(item);
+    document.getElementById('body').appendChild(img);
 }
 
 function openAnim() {

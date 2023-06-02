@@ -1,0 +1,51 @@
+{
+    "probs": {
+        "d": 82500,
+        "c": 0,
+        "b": 92700,
+        "a": 93989,
+        "s": 0
+    },
+    "STiers": [
+
+    ],
+    "ATiers": [
+        "Catherine_Ward",
+        "Daniel_Dickens",
+        "Edward_Mason",
+        "Rachel_Gardner"
+    ],
+    "BTiers": [
+        "Send_Flowers",
+        "Pray",
+        "Joy",
+        "Deranged",
+        "Judgment",
+        "Handgun",
+        "Crossbow",
+        "Hunting_Crop",
+        "Remote_Control",
+        "Prosthetic_Eye_Tank"
+    ],
+    "CTiers": [
+
+    ],
+    "DTiers": [
+        "CatherineWardI",
+        "CatherineWardII",
+        "CatherineWardPortrait",
+        "DanielDickensI",
+        "DanielDickensII",
+        "DanielDickensPortrait",
+        "EdwardMasonI",
+        "EdwardMasonII",
+        "EdwardMasonPortrait",
+        "IsaacFosterI",
+        "IsaacFosterII",
+        "IsaacFosterPortrait",
+        "RachelGardnerI",
+        "RachelGardnerII",
+        "RachelGardnerPortrait"
+    ],
+    "dupesEnabled": false
+}
